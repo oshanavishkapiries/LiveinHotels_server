@@ -1,0 +1,20 @@
+{
+  "name": "liveinhotels_server",
+  "version": "1.0.0",
+  "description": "Hotel management System node backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "nodemon": "^3.1.4"
+  }
+}
